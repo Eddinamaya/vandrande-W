@@ -1,7 +1,5 @@
  
  function randomint(){
-     Math.random
- Math.floor(Math.random()* 100)
+ return Math.floor(Math.random()* 100)
  }
- document.getElementById("knapp").onclick = randomint()
-console.log(randomint())
+ document.getElementById("knapp").onclick = (randomint())
